@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#CFF5E7"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Drawing App"
+        android:layout_marginBottom="50dp"
+        android:textColor="@color/text_color"
+        android:fontFamily="@font/alien_energy"
+        android:gravity="center"
+        android:textSize="40dp"
+       />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/my_app_icon"
+        />
+    <Button
+        android:id="@+id/btn_draw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="let's draw"
+        android:layout_margin="20dp"
+        android:textColor="@color/bt_tx_color"
+        android:textAllCaps="false"
+        app:backgroundTint="@null"
+        android:background="@drawable/drawable_main_button_background"
+        android:fontFamily="@font/alien_energy"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="from Adil Khan"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/text_color"
+        android:gravity="center|bottom"
+        android:textSize="10dp"
+        android:fontFamily="@font/alien_energy"
+        />
+
+</LinearLayout>
